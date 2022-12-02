@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Interactive card details form</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  </style>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+  </style>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+  </style>
+
+</head>
+
+<body>
+ <img class="img-main" src="images\bg-main-desktop.png" alt="">
+ <img class="card-ft" src="images\bg-card-front.png" alt="">
+ <img class="card-bk" src="images\bg-card-back.png" alt="">
+ <img class="card-logo" src="images\card-logo.svg" alt="">
+ <div class="ac-d">
+   <h1 class="ac-no">0000 0000 0000 0000</h1>
+    <h3 class="ac-y">JANE APPLESSED</h3>
+    <h4 class="ac-dm">00/00</h4>
+ </div>
+ <h4 class="ac-cv"> 000</h4>
+
+ <div class="inputs">
+ <div class="input-1">
+    <label class="l-name" for="name">CARDHOLDER NAME</label><br>
+    <input class="in-na" id="form_fname" type="text" name="name" placeholder="  e.g. Jane Appleseed" >
+    <span class="er-na" id="fname_error_message" ></span>
+ </div>
+ <div class="input-2">
+   <label class="l-no" for="no">CARD NUMBER</label><br>
+   <input id="form_fnum" class="in-nu" type="text" name="no" placeholder=" e.g. 1234 5678 9876 0000"  >
+   <span class="er-nu" id="fnum_error_message" ></span>
+ </div>
+ <div class="input-3"
+   <label class="l-m" for="month">EXP. DATE (MM/YY)</label><br>
+   <input id="form_fmonth" class="in-m" type="text" name="month" placeholder=" MM">
+   <span class="er-m" id="fmonth_error_message" ></span>
+   <input id="form_fyear" class="in-y" type="text" name="year" placeholder=" YY">
+   <span class="er-yea" id="fyear_error_message" ></span>
+
+    <label class="l-cvc" for="cvc">CVC</label>
+   <input id="form_fcvc" class="in-cvc" type="text" name="cvc"  placeholder=" e.g. 123" >
+   <span class="er-cv" id="fcvc_error_message" ></span>
+    <br><button id="bt" class="in-btn" type="submit" name="submit">Confirm</button>
+
+ </div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="data.js" charset="utf-8"></script>
+</body>
+</html>

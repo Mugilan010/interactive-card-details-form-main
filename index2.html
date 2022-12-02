@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>THANK YOU</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+    </style>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <img class="img-main" src="images\bg-main-desktop.png" alt="">
+    <img class="card-ft" src="images\bg-card-front.png" alt="">
+    <img class="card-bk" src="images\bg-card-back.png" alt="">
+    <img class="card-logo" src="images\card-logo.svg" alt="">
+
+  <div class="o-d">
+       <h2 class="o-nu"> <span id="number"></span> </h2>
+       <h1 class="o-na"><span id="na"></span> </h1>
+       <h3 class="o-mo"><span id="mo"></span> </h3>
+       <h2 class="o-sy">/</h2>
+       <h3 class="o-yea"><span id="yea"></span></h3>
+       <h4 class="o-cv"><span id="cv"></span> </h4>
+       </div>
+
+       <script>
+       $(function(){
+         $("#na").html(localStorage.getItem("name1"));
+         $("#number").html(localStorage.getItem("num1"));
+         $("#yea").html(localStorage.getItem("year1"));
+         $("#mo").html(localStorage.getItem("month1"));
+         $("#cv").html(localStorage.getItem("cvc1"));
+       })
+       </script>
+
+    <div class="thank">
+        <img src="images\icon-complete.svg" alt="">
+        <h1>THANK YOU</h1>
+        <h4>we've added your card details</h4>
+        <button class="in-btn" type="button" name="button">Continue</button>
+
+    </div>
+    <script src="data.js" charset="utf-8"></script>
+  </body>
+</html>
