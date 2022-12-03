@@ -6,12 +6,12 @@ body{margin:0;}
           height:150px;}
 
 .card-bk{position: absolute;
-         bottom:120px;;
+         top:330px;;
          left:260px;
          height:150px;}
 
 .img-main{width:400px;
-          height:600px;}
+          height:100%;}
 
 .card-logo{position: absolute;
            top:165px;
@@ -48,7 +48,7 @@ body{margin:0;}
        font-family: 'Poppins', sans-serif;
        }
 .ac-cv{position:absolute;
-       bottom:170.5px;
+       top:380px;
        left:475px;
        color:#fff;
        font-family: 'Poppins', sans-serif;
