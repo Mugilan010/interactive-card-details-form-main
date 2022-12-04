@@ -176,8 +176,7 @@ body{margin:0;}
 
              }
 
-
-@media screen and (max-width:500px) {
+@media (width:500px) {
 
 
 .img-main{
@@ -188,46 +187,46 @@ body{margin:0;}
 .card-bk{
   position: absolute;
   top: 30px;
-  left:200px;
+  left:20%;
 }
 
 .card-ft{position: absolute;
-          left:30px;
+          left:3%;
           z-index:1;
-          top:115px;}
+          top:20%;}
 
 .card-logo{position:absolute;
-           top:130px;
-           left:50px;
+           top:22%;
+           left:7%;
            z-index:3}
 
 .ac-d{
   position: absolute;
-  left:50px;
-  top:165px;
+  left:7%;
+  top:29%;
   z-index:2;
 }
 
 .ac-cv{position:absolute;
-       left:420px;
-       top:78px;
+       left:64%;
+       top:81px;
       }
 
 .inputs{position: absolute;
         top:280px;
-        left:100px;
+        left:40px;
         height:200px;}
 
 
 
 .o-d{position:absolute;
      top:157px;
-     left:50px;
+     left:30px;
      z-index:3}
 
 .o-cv{position: absolute;
       top:-86px;
-      left:360px;
+      left:260px;
 
 }
 
@@ -238,6 +237,4 @@ body{margin:0;}
 
 .tk{margin-top:5px;}
 }
-
-/* end */
 
