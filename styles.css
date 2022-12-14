@@ -176,7 +176,7 @@ body{margin:0;}
 
              }
 
-@media (width:500px) {
+@media (max-width:500px) {
 
 
 .img-main{
